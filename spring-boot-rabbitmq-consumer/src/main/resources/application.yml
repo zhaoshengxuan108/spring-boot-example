@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    addresses: 192.168.1.10
+    username: rabbit
+    password: rabbit
+    virtual-host: /
+    #publisher-confirms: true

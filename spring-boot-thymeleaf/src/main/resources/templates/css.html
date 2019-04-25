@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8"/>
+	<title>SpringBoot模板渲染</title>
+	<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</head>
+<body>
+	<a th:href="@{/show}" th:text="访问"/>
+	<hr/>
+	<p th:text="'官方网站:' + ${url}"/>
+	<p th:utext="'官方网站:' + ${url}"/>
+</body>
+</html>

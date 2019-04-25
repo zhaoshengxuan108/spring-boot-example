@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: 192.168.1.184
+    port: 6379
+    timeout: 1000
+    database: 0
+    pool:
+      max-active: 10
+      max-idle: 8
+      min-idle: 2
+      max-wait: 100

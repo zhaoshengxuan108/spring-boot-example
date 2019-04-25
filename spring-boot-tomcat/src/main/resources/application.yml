@@ -1,0 +1,7 @@
+spring:
+  messages:
+    basename: i18n/Messages,i18n/Pages
+
+server:
+  port: 8081
+  
